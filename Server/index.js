@@ -1,6 +1,8 @@
 import express from "express";
 import dotenv from 'dotenv';
 dotenv.config();
+import path from "path";
+const _dirname = path.resolve();
 
 import mongoose from "mongoose";
 import Product from './models/Product.js'
@@ -189,6 +191,15 @@ app.get('/orders', async(req, res)=>{
         message: 'orders retrive successfully'
     })
 })
+
+if(process.env.NODE_ENV === 'production'){
+    app.use(express.static(path.join(_dirname, '..',client, 'build')));
+
+    app.get('*', (req, res)=>{
+        res.sendFile(path.join(_dirname, '..', 'client', 'build', 'index.html'))
+    });
+}
+
 
 const PORT = 5000;
 
