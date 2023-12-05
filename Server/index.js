@@ -79,6 +79,9 @@ app.get('/products/:id', async(req, res)=>{
     })
 })
 
+
+
+
 app.delete('/product/:id', async (req, res)=>{
     const {id} = req.params;
 
