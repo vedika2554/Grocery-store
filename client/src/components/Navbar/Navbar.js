@@ -12,10 +12,7 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
            <Nav.Link href="/"><span className='nav-menu'>Home</span></Nav.Link>
-           <Nav.Link href="/Product"><span className='nav-menu'>Products</span></Nav.Link>
-           <Nav.Link href="/login"><span className='nav-menu'>Our services</span></Nav.Link>
-           <Nav.Link href="/login"><span className='nav-menu'>About</span></Nav.Link>
-            <Nav.Link href="/login"><span className='nav-menu'>Help</span></Nav.Link>
+           
             <Nav.Link href="/login"><span className='login'>Login</span></Nav.Link>
             <Nav.Link href="/signin"><span className='Signup'>Signup</span></Nav.Link>
          
