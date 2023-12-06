@@ -34,7 +34,7 @@ loadProducts();
 <p className='e'>NO COST EMI | SCHEDULED DELIVERY</p>
 <p className='f'>COMBO OFFERS | BIG DISCOUNT</p>
 <div>
-<button className='btn1'>Buy now</button>
+<button className='btn1'>Shop now</button>
 <button className='btn2'>Trending Gadgets</button>
 </div></h1>
 <img className = "gadimg"src={'https://techhubdirect.com/wp-content/uploads/2020/11/Mobile-Computer-and-Laptop-Repair.png'}/>
@@ -43,7 +43,7 @@ loadProducts();
 
 
 
-        <h1 className="tital">Catagory</h1>
+        <h1 className="tital">Product-Catagory</h1>
         <hr className="hrtag"/>
         <div className="products-container">
         {
