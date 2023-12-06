@@ -191,7 +191,7 @@ app.get('/orders', async(req, res)=>{
     res.json({
         success:true,
         data: orders,
-        message: 'orders retrive successfully'
+        message: 'orders gets successfully'
     })
 })
 
