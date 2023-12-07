@@ -41,7 +41,8 @@ const Login= async () => {
             }}/>
             </div>
             <button onClick={Login}className='up-si'>Login</button>
-           <Link className="mon"to='/signin'><span className='up-si'>Signup</span></Link>
+            <p className='opd'>Create a new account</p>
+           <Link className="mon"to='/signin'><span className='up-cd'>Signup</span></Link>
             <h1></h1>
             
         </div>

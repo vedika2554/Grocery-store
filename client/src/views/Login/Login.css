@@ -1,4 +1,23 @@
 .mon{
     text-decoration: none;
     text-align: center;
+    
+}
+.opd{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+.up-cd{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: brown;
+    width: 60%;
+    padding: 5px;
+    color: #ffd9cc;
+    border-radius: 30px;
 }
