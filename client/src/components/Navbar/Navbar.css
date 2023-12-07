@@ -29,7 +29,7 @@
     font-size: 23px;
     color: cornflowerblue;
 }
-@media screen and  (min-width:390px){
+@media screen and  (min-width:394px){
     .login{
         margin-left: 27px;  
     }

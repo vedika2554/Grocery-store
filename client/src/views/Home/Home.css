@@ -134,7 +134,66 @@ flex-wrap: wrap;
 
 
 
-@media screen and  (min-width:390px){
+@media screen and  (max-width:390px){
+    .gadimg{
+        width: 375px;  
+        margin-top: 190px;
+    }
+    .a{
+        font-size: 43px;
+        margin-left: 10px;
+    }
+    .b{
+        font-size: 43px;
+        margin-left: 10px;
+    }
+    .c{
+        font-size: 43px;
+        margin-left: 135px;
+        top: 35px;
+    }
+    .d{
+        margin-top: 85px;
+        margin-left: 20px;
+    }
+    .e{
+        
+        margin-left: 20px;
+        
+    }.f{
+     
+        margin-left: 20px;
+        
+    }
+    .g{
+        font-size: 43px;
+        top: 35px;
+        
+    }
+    .btn1{
+        font-size: 20px;
+        padding-left: 20px;
+        left: 25px;
+        padding-right: 20px;
+    }
+    .btn2{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        left: 55px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and  (min-width:394px){
     .gadimg{
         width: 375px;  
         margin-top: 190px;
@@ -170,19 +229,18 @@ flex-wrap: wrap;
         top: 35px;
     }
     .btn1{
-        font-size: 20px;
+        font-size: 22px;
         padding-left: 20px;
-        left: 25px;
+        left: 5px;
         padding-right: 20px;
     }
     .btn2{
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        left: 55px;
+        left: 40px;
     }
 }
-
 
 
 
