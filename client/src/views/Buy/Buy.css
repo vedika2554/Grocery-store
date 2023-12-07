@@ -125,12 +125,15 @@ color: #ffd9cc;
 
 
 
-@media screen and  (min-width:394px){
+@media screen and  (min-width:375px){
     .buy-container{
         flex-direction: column;
-        width: 360px;
+        width: 355px;
         height: 960px;
-        margin-left: 20px;
+       
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 .proimg{
     height: 300px;
@@ -155,6 +158,7 @@ margin-top:30px ;
 
 @media screen and  (min-width:1200px){
     .buy-container{
+        display: flex;
         flex-direction: row;
         width: 1200px;
         margin-left: 140px;

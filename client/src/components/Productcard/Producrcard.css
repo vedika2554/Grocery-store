@@ -55,7 +55,7 @@
     background-color: #503716;
     color:#ffd9cc
 }
-@media screen and  (min-width:394px){
+@media screen and  (min-width:375px){
     .product-card{
         width: 350px;
     }

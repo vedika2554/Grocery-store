@@ -35,7 +35,7 @@
     color: brown;
     margin-top: 20px;
 }
-@media screen and  (min-width:394px){
+@media screen and  (min-width:375px){
     .ordercard{
         width: 360px;
     }
