@@ -149,6 +149,7 @@ margin-top:30px ;
 }
 .now{
     width: 80%;
+    margin-top: 30px;
     margin-left: 35px;
 }
 
@@ -178,6 +179,7 @@ margin-top:30px ;
     .now{
         width: 60%;
         margin-left: 100px;
+       margin-top: 10px;
     }
   
 }
