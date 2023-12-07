@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
-
+import { Link } from 'react-router-dom'
 import axios from 'axios'
+import './Login.css'
 import Navbar from './../../components/Navbar/Navbar'
 function Login(){
     const [email, setEmail] = useState('')
@@ -40,6 +41,9 @@ const Login= async () => {
             }}/>
             </div>
             <button onClick={Login}className='up-si'>Login</button>
+           <Link className="mon"to='/signin'><span className='up-si'>Signup</span></Link>
+            <h1></h1>
+            
         </div>
        </div>
         </>
